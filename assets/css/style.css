@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgoldenrodyellow;
+}
+nav{
+    
+    display: flex;
+    width: 100%;
+    background-color: black;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    font-size: large;
+    font-family:monospace;
+    font-style: oblique;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+[href]{
+    color:aqua;
+
+}
+#h1{
+    color: yellow;
+    background-color:black;
+    text-align: center;
+    border: 5px solid red;
+}
+ nav>h2{
+    color: red;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+}
+nav ~ h1{
+color: red;
+font-family:Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+text-decoration: underline;
+word-spacing: 20%;
+text-transform: uppercase;
+line-height: 25%;
+}
+p{
+    background-color: gray;
+    color: black;
+    font-family:sans-serif;
+    font-weight:500;
+    font-style:italic;
+    word-spacing: 2px;
+    letter-spacing: 20;
+    text-align: justify;
+    text-indent: 20%;
+    padding: 20px;
+    margin: 20px;
+    line-height: 25px;
+}
+.row{
+display: flex;
+background-color: black;
+}
+.column{
+    flex: 50%;
+}
+section h2{
+    color: cadetblue;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-align: center;
+
+}
+summary{
+    color: blue;
+    font-size:xx-large;
+    font-family: monospace;
+    font-weight: bolder;
+    text-align: end;
+    
+}
+figure{
+    background-color:black;
+}
+section{
+    background-color: black;
+}
+figcaption{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+aside{
+    color: white;
+
+    text-align: right;
+    background-color: black;
+    border: 2px solid yellow;
+    
+}
